@@ -120,8 +120,8 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-    let markdown = generateMarkdown(projectData)
+function writeToFile(data) {
+    let markdown = generateMarkdown(data)
     
     fs.writeFile('README.md', markdown, err => {
         if (err) throw err;
@@ -132,9 +132,8 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt (questions)
     .then(projectData => {
-        console.log(projectData)
+       writeToFile(projectData)
     })
-    .then(writeToFile)
 }
 
 // function call to initialize program
