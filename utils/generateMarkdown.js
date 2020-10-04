@@ -7,17 +7,34 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-    -[Description](#description)
-    -[Installation](#installation)
-    -[Usage](#usage)
-    -[Licenses](#licenses)
-    -[Contribution](#contribution)
-    -[Test](#test)
-    -[Questions] (#questions)
+  * [Installation](#Installation)
+  * [Usage](#usage)
+  * [Licenses](#licenses)
+  * [Contribution](#contribution)
+  * [Test](#test)
+  * [Questions](#questions)
 
-  
+  ## Installation
+  ${data.installation}
 
-`;
+  ## Usage
+  ${data.usage}
+
+  ## Licenses
+  ${data.license}
+
+  ## Contribution
+  ${data.contributing}
+
+  ## Test
+  ${data.tests}
+
+  ## Questions
+  Here is a link to my [GitHub Profile](http://github.com/${data.github})
+
+  If you have any more additional questions, feel free to reach me at ${data.email}
+
+  `;
 }
 
 module.exports = generateMarkdown;
