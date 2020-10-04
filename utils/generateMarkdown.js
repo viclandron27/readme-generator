@@ -21,7 +21,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## Licenses
-  ${data.license}
+  ![badmath](https://img.shields.io/static/v1?label=<${data.license}>&message=<100%>&color=<lightgrey>)
 
   ## Contribution
   ${data.contributing}

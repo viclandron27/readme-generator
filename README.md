@@ -2,30 +2,30 @@
   # Run Buddy
 
   ## Description
-  I started this application to find a trainer
+  eagegae
 
   ## Table of Contents
-  *[Installation](#Installation)
-  *[Usage](#usage)
-  *[Licenses](#licenses)
-  *[Contribution](#contribution)
-  *[Test](#test)
-  *[Questions](#questions)
+  * [Installation](#Installation)
+  * [Usage](#usage)
+  * [Licenses](#licenses)
+  * [Contribution](#contribution)
+  * [Test](#test)
+  * [Questions](#questions)
 
   ## Installation
-  clone the project, then open in browser
+  aegae
 
   ## Usage
-  Just search through
+  aegaew
 
   ## Licenses
-  Javascript
+  ![badmath](https://img.shields.io/static/v1?label=<Javascript>&message=<100%>&color=<lightgrey>)
 
   ## Contribution
-  only work in a feature branch
+  eagea
 
   ## Test
-  ege
+  agea
 
   ## Questions
   Here is a link to my [GitHub Profile](http://github.com/viclandron27)
