@@ -114,9 +114,11 @@ const questions = () => {
                     return false;
                 }
         }
-
     ])
-} 
+    .then( projectData => {
+        console.log(projectData)
+    })
+}; 
 
 // function to write README file
 function writeToFile(fileName, data) {
