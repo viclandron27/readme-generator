@@ -4,8 +4,7 @@ console.log(inquirer);
 //const fs = require('fs');
 
 // array of questions for user
-const questions = () => {
-    return inquirer.prompt([
+const questions = [
         {
             type: 'input',
             name: 'name',
@@ -113,12 +112,9 @@ const questions = () => {
                     console.log('Please enter your email address.');
                     return false;
                 }
+            }
         }
-    ])
-    .then( projectData => {
-        console.log(projectData)
-    })
-}; 
+];
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -126,7 +122,10 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt (questions)
+    .then(projectData => {
+        console.log(projectData)
+    })
 }
 
 // function call to initialize program
