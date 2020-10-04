@@ -1,8 +1,10 @@
 
   # Run Buddy
+  ![badmath](https://img.shields.io/static/v1?label=Javascript&message=100%&color=<lightgrey>)
+
 
   ## Description
-  eagegae
+  egaegaedg
 
   ## Table of Contents
   * [Installation](#Installation)
@@ -13,19 +15,19 @@
   * [Questions](#questions)
 
   ## Installation
-  aegae
+  aegaedga
 
   ## Usage
-  aegaew
+  gaedgae
 
   ## Licenses
-  ![badmath](https://img.shields.io/static/v1?label=<Javascript>&message=<100%>&color=<lightgrey>)
+  ![badmath](https://img.shields.io/static/v1?label=Javascript&message=100%&color=<lightgrey>)
 
   ## Contribution
-  eagea
+  eahaeg
 
   ## Test
-  agea
+  aegaeg
 
   ## Questions
   Here is a link to my [GitHub Profile](http://github.com/viclandron27)
