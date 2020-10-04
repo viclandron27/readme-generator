@@ -1,7 +1,9 @@
-const inquirer = require('inquirer');
-console.log(inquirer);
 
-//const fs = require('fs');
+const fs = require('fs');
+const inquirer = require('inquirer');
+const readme = require("./src/create-readme");
+
+
 
 // array of questions for user
 const questions = [
@@ -130,3 +132,10 @@ function init() {
 
 // function call to initialize program
 init();
+
+
+fs.writeFile('README.md', writeToFile(fileName, data), err => {
+    if (err) throw err;
+  
+    console.log('README complete! Check out README.md to see the output!');
+  });
