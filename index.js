@@ -87,7 +87,16 @@ const questions = [
         {
             type: 'input',
             name: 'tests',
-            message: 'Write tests for your application'
+            message: 'Write tests for your application. Write N/A if you do not want to write in a test (Required)',
+            validate: testInput => {
+                if (testInput) {
+                    return true;
+                }
+                else {
+                    console.log('Please enter tests for your application. Write N/A if you do not want to write in a test.');
+                    return false;
+                }
+            }
         },
         {
             type: 'input',
